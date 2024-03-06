@@ -1,3 +1,3 @@
-a = int(26)
-b = int(5)
-print("26 * 5 = " + (a*b))
+a = 26
+b = 5
+print("26 * 5 = " + str((a*b)))
