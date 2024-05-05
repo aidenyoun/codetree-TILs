@@ -1,6 +1,6 @@
 a = int(input())
 
-if n < 5:
+if a < 5:
     print(a**2)
     print("tiny")
 else:
