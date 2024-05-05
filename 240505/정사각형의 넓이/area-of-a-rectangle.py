@@ -4,4 +4,4 @@ if n < 5:
     print(a**2)
     print("tiny")
 else:
-    print(a**@)
+    print(a**2)
