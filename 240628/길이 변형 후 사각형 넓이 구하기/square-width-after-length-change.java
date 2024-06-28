@@ -6,8 +6,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         long a = sc.nextLong();
         long b = sc.nextLong();
-        a += 8
-        b *= 3
+        a += 8;
+        b *= 3;
         System.out.printf("%d\n",a);
         System.out.printf("%d\n",b);
         System.out.printf("%d",a*b);
