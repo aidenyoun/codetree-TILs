@@ -6,6 +6,6 @@ public class Main {
         sc.useDelimiter(":");
         long a = sc.nextLong();
         long b = sc.nextLong();
-        System.out.printf("%d:%d",a,b);
+        System.out.printf("%d:%d",a+1,b);
     }
 }
