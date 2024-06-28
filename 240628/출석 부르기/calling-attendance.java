@@ -13,6 +13,6 @@ public class Main {
         else if (a == 3) {
             System.out.printf("Paul");
         }
-        else System.out.printf("Vacnacy");
+        else System.out.printf("Vacancy");
     }
 }
