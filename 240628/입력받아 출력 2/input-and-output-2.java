@@ -6,6 +6,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         sc.useDelimiter("-");
         long a = sc.nextLong();
-        System.out.prtinf("%d",a);
+        System.out.printf("%d",a);
     }
 }
