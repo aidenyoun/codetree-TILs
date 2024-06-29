@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         long n = sc.nextLong();
         for (long i = n; i <= 100; i++) {
-            Sysetm.out.printf("%d ", i);
+            System.out.printf("%d ", i);
         }
     }
 }
