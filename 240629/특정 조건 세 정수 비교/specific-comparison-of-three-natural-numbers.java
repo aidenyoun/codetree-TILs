@@ -7,7 +7,7 @@ public class Main {
         long b = sc.nextLong();
         long c = sc.nextLong();
 
-        if (a < b && a < c) {
+        if (a <= b && a <= c) {
             System.out.printf("1 ");
         }
         else System.out.printf("0 ");
