@@ -3,8 +3,8 @@ public class Main {
     public static void main(String[] args) {
         // 여기에 코드를 작성해주세요.
         Scanner sc = new Scanner(System.in);
-        long l = sc.nextLong();
-        long r = sc.nextLong();
+        double l = sc.nextDouble();
+        double r = sc.nextDouble();
 
         if (l >= 1.0 && r >= 1.0) {
             System.out.printf("High");
