@@ -4,9 +4,10 @@ public class Main {
         // 여기에 코드를 작성해주세요.
         Scanner sc = new Scanner(System.in);
         long n = sc.nextLong();
-        while (n >= 1) {
-            System.out.printf("%d ", n);
-            n -= 1;
+        long i = 1;
+        while (n >= i) {
+            System.out.printf("%d ", i);
+            i += 1;
         }
     }
 }
