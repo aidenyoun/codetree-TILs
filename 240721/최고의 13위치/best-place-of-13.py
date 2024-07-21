@@ -14,10 +14,16 @@ if len(temp) == 3:
 
 else:
     for i in range(len(temp)):
-        for j in range(0, len(temp)%3):
+        
+        for j in range(0, (len(temp)%3)+1):
             if temp[i][j] == 1:
                 temp1 += 1
-        max_temp = max(temp1, max_temp)
-        ans = max_temp   
+            if temp[i][j+1] == 1:
+                temp1 += 1
+            if temp[i][j+2] == 1:
+                temp1 += 1
+            max_temp = max(temp1, max_temp)
+            ans = max_temp
+            temp1 = 0
 
 print(ans)
