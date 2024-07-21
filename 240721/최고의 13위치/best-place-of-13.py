@@ -14,8 +14,7 @@ if len(temp) == 3:
 
 else:
     for i in range(len(temp)):
-        
-        for j in range(0, (len(temp)%3)+1):
+        for j in range(len(temp)-2):
             if temp[i][j] == 1:
                 temp1 += 1
             if temp[i][j+1] == 1:
